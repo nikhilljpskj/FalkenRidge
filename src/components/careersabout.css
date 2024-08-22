@@ -1,0 +1,80 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.career-content-container{
+  margin: 100px 5% 0px 5%;
+  padding: 20px;
+  background-color: #f8f9fa; /* Light background for readability */
+  color: #343a40; /* Dark gray for professional look */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+.build-a-career{
+  position: relative;
+  color: rgba(226, 19, 19, 0.8);
+}
+
+.header-intro{
+  position: relative;
+  font-size: 1.1em;
+  margin: 2% 5%;
+}
+
+.section{
+  opacity: 0; /* Start hidden */
+  transform: translateY(20px); /* Start slightly lower */
+  transition: opacity 0.25s ease-in-out, transform 0.25s ease-in-out; /* Transition for both opacity and position */
+}
+
+.section {
+  margin-top: 50px;
+}
+
+.section.loaded {
+  opacity: 1; /* Fully visible */
+  transform: translateY(0); /* Return to original position */
+}
+
+.section-text-area h2{
+  color: black;
+  font-size: 45px;
+}
+.section-text-area p{
+  color: black;
+  font-size: 1.1em;
+  text-align: start;
+}
+
+.opportunity-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.opportunity-list li {
+  font-size: 16px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.opportunity-list li:hover{
+  transform: translateY(-10%);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.opportunity-list i {
+  color: crimson; /* Adjust color as needed */
+  margin-right: 10px;
+}

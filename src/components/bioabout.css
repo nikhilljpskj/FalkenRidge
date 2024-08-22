@@ -1,0 +1,130 @@
+/* bioabout.css */
+
+.bioabout-container {
+    margin-top: 0px;
+    padding: 20px;
+    font-family: Arial, sans-serif; /* Modern, clean font */
+    color: #333; /* Dark text color for readability */
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #444; /* Slightly lighter text color for headings */
+    margin-bottom: 20px; /* Spacing below headings */
+    font-weight: bold; /* Makes headings stand out */
+}
+
+h1 {
+    font-size: 3.5em; /* Larger font size for main heading */
+    text-align: center; /* Center align the main heading */
+
+}
+
+h2 {
+    font-size: 1.8em; /* Slightly smaller for subheadings */
+    border-bottom: 2px solid #ddd; /* Underline for separation */
+    padding-bottom: 10px; /* Padding below the heading */
+    margin-bottom: 20px; /* Spacing below subheadings */
+}
+
+.bio-intro {
+    margin-bottom: 40px; /* Extra spacing for introduction section */
+}
+
+.bio-intro p {
+    line-height: 1.6; /* Improved readability */
+    font-size: 1.1em; /* Slightly larger font size */
+    color: #555; /* Slightly lighter color for paragraphs */
+    
+}
+
+.specifications h2, .key-features h2{
+    justify-content: left;
+    text-align: left;
+}
+
+.specifications ul {
+    list-style: none;
+    padding: 0;
+  }
+
+.specifications ul,li{
+    display: block;
+    margin-bottom: 10px;
+}
+@media (min-width: 768px){
+    .specifications li{
+        flex: 1 1 45%; /* The 45% allows space between two items on the same line */
+        box-sizing: border-box;
+        margin: 5px;
+        
+    }
+    .specifications ul li {
+        width: 48%; /* Adjust the width to create space between the items */
+      }
+}
+
+.specifications, .key-features, .how-it-works {
+    margin-bottom: 40px; /* Spacing between sections */
+}
+
+.specifications ul, .key-features ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+}
+
+.specifications li, .key-features li {
+    /* background-color: #f9f9f9; Light background for list items */
+    border: 1px solid #dddddd21; /* Subtle border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding inside list items */
+    margin-bottom: 10px; /* Space between list items */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.specifications li:hover, .key-features li:hover {
+    /* background-color: #e0e0e0; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+}
+
+.specifications strong, .key-features strong {
+    color: #333; /* Dark color for labels */
+}
+
+.how-it-works p {
+    line-height: 1.6; /* Improved readability */
+    font-size: 1.1em; /* Slightly larger font size */
+    color: #555; /* Slightly lighter color for paragraphs */
+}
+
+.specifications i, .key-features i{
+    color: rgba(247, 54, 54, 0.8);
+    padding-right: 10px;
+}
+
+.para{
+    text-align: justify;
+}
+
+/* fade in animatin settings */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .fade-in-element{
+    opacity: 0; /* Start hidden */
+    transform: translateY(20px); /* Start slightly lower */
+    transition: opacity 1s ease-in-out, transform 0.25s ease-in-out; /* Transition for both opacity and position */
+  }
+  .fade-in-element.loaded {
+    opacity: 1; /* Fully visible */
+    transform: translateY(0); /* Return to original position */
+  }

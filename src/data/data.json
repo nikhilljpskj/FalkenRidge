@@ -1,0 +1,188 @@
+{
+  
+  "About": {
+    "paragraph": "We are a leading software development company with over 20 years of experience, dedicated to creating innovative and effective solutions tailored to your needs. Our expert team specializes in custom software, web and mobile applications, and digital marketing, ensuring high-quality results that drive success.",
+    "paragraph1":  "Our commitment to excellence is reflected in our transparent communication and collaborative approach. We work closely with you to understand your goals and deliver solutions that exceed expectations, ensuring your projects are completed on time and within budget.",
+    "Why": [
+      "Decade of Expertise",
+      "Comprehensive Services",
+      "High-Quality Results",
+      "Collaborative Approach"
+    ],
+    "Why2": [
+      "Tailored Solutions",
+      "Transparent Communication",
+      "On-Time & On-Budget Delivery",
+      "Innovative Solution"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+        "icon": "fas fa-desktop",
+        "name": "Custom Software Development",
+        "text": "Tailored software solutions that are robust, scalable, and aligned with your business goals."
+    },
+    {
+        "icon": "fas fa-globe",
+        "name": "Web Application Development",
+        "text": "Dynamic, secure, and high-performing web apps for a seamless user experience."
+    },
+    {
+        "icon": "fas fa-mobile-alt",
+        "name": "Mobile Application Development",
+        "text": "Custom mobile apps for iOS and Android designed for user engagement and business support."
+    },
+    {
+        "icon": "fas fa-bullhorn",
+        "name": "Digital Marketing",
+        "text": "Boost your online presence with targeted SEO, social media, and content marketing strategies."
+    },
+    {
+        "icon": "fas fa-cloud-upload-alt",
+        "name": "Deployment",
+        "text": "Smooth transition from development to production with minimal downtime and efficient server setup."
+    },
+    {
+        "icon": "fas fa-heartbeat",
+        "name": "Healthcare",
+        "text": "Innovative solutions for patient management, telemedicine, and health monitoring to enhance care."
+    }
+],
+
+  "Testimonials": [
+    {
+      "img": "img/testimonials/02.png",
+      "text": "\"Work Review.\"",
+      "name": "Paris Perfume - UAE"
+    },
+    {
+      "img": "img/testimonials/01.png",
+      "text": "\"Work Review.\"",
+      "name": "GK Motors - UAE"
+    },
+    {
+      "img": "img/testimonials/04.png",
+      "text": "\"Work Review.\"",
+      "name": "MK Motors - UAE"
+    },
+    {
+      "img": "img/testimonials/08.png",
+      "text": "\"Work Review.\"",
+      "name": "Kerala Congress"
+    },
+    {
+      "img": "img/testimonials/07.png",
+      "text": "\"Work Review.\"",
+      "name": "Grace Waves Technical Services LLC - UAE"
+    },
+    {
+      "img": "img/testimonials/03.png",
+      "text": "\"Work Review.\"",
+      "name": "The Law Trust"
+    },
+    {
+      "img": "img/testimonials/06.png",
+      "text": "\"Work Review.\"",
+      "name": "Daya Life Science"
+    },
+    {
+      "img": "img/testimonials/05.png",
+      "text": "\"Work Review.\"",
+      "name": "Focus Direct - UAE"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.png",
+      "name": "Jais John",
+      "job": ""
+    },
+    {
+      "img": "img/team/02.png",
+      "name": "Nikhil Prakash",
+      "job": ""
+    },
+    {
+      "img": "img/team/03.png",
+      "name": "Sobin Joy",
+      "job": ""
+    }
+  ],
+  "Contact": {
+    "address": "SBC III, Ashtamudi Tower, Technopark , Kollam",
+    "phone": "+91 9447-355775",
+    "email": "info@redeemertechnologies.com",
+    "facebook": "https://www.facebook.com/redeemertechnologies",
+    "twitter": "twitter.com",
+    "linkedin": "https://www.linkedin.com/company/redeemertechnologies/"
+  },
+  "Features": [
+    {
+        "icon": "fa fa-code",
+        "title": "Skilled Developers",
+        "text": "Skilled teams focused on your projects, ensuring efficient and effective development."
+    },
+    {
+        "icon": "fa fa-headphones",
+        "title": "24/7 Support",
+        "text": "Round-the-clock support to keep your systems running smoothly and address any issues."
+    },
+    {
+        "icon": "fa fa-check-circle",
+        "title": "Quality & Reliability",
+        "text": "Thorough testing to ensure your products meet high standards of reliability."
+    },
+    {
+        "icon": "fa fa-comments",
+        "title": "Transparency",
+        "text": "Clear communication and collaboration throughout the project to meet your expectations."
+    }
+]
+}

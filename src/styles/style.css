@@ -1,0 +1,143 @@
+.buttons {
+    background-color: crimson;
+    color: aliceblue;
+    padding: 12px 24px; /* Slightly increased padding for better touch targets */
+    border: none;
+    border-radius: 20px 0 20px 0;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for depth */
+    transition: all 0.3s ease-in-out; /* Smooth transition for all properties */
+    font-size: 1.1em; /* Slightly larger font for better readability */
+    font-weight: bold; /* Makes the text stand out */
+    /* background: linear-gradient(135deg, crimson, rgba(139, 0, 0, 0.358));  Adds a subtle gradient */
+}
+
+.buttons:hover {
+    background-color: darkred;
+    /*background: linear-gradient(135deg, darkred, crimson);  Reversed gradient on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* Deepens the shadow on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+    color: white; /* Maintains text color consistency */
+}
+
+.buttons:active {
+    background-color: firebrick; /* Darker color on click */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); /* Reduce shadow on click */
+    transform: translateY(0); /* Reset lift effect */
+}
+
+
+
+/* input {
+    padding: 10px; 
+    width: 200px;
+    border: 1px solid #ccc; 
+    border-radius: 15px; 
+    outline: none;
+    font-size: 16px; 
+}
+
+input:focus {
+    border-color: crimson; 
+    box-shadow: 0 0 5px rgba(220, 20, 60, 0.5); 
+}
+
+textarea {
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 15px;
+    outline: none;
+    font-size: 16px; 
+    width: 600px;
+} */
+
+/* Default styles for the navigation */
+.navbar-toggle {
+    display: none; /* Hide the toggle button by default */
+    align-items: right;
+  }
+  
+  @media (max-width: 995px) {
+    /* Show the toggle button when screen width is less than 1100px */
+    .navbar-toggle {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 10px; /* Adjust the top position as needed */
+        margin-right: 15px; /* Add some margin to align with other elements */
+    }
+  
+    /* Hide the navigation items (li elements) when the screen width is less than 1100px */
+    .navbar-collapse.collapse {
+      display: none !important;
+    }
+  
+    .navbar-collapse.collapse.in {
+      display: block !important;
+    }
+    
+    /* Ensure the nav items are displayed when the toggle is clicked */
+    .navbar-nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+
+.navbar-brand-text {
+    font-family: 'Times-new-roman', sans-serif; /* Replace with your custom font */
+    font-size: 30px; /* Adjust size as needed */
+    font-weight: bold;
+    color: #FC1D26; /* Example primary color */
+    background: linear-gradient(90deg, #FC1D26 0%, #8E195E 50%, #D91E25 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    text-transform: uppercase; /* If needed */
+    letter-spacing: 1px; /* Adjust spacing */
+}
+
+.navbar-subtext {
+    font-family: 'Times-new-roman', sans-serif; /* Same or different font */
+    font-size: 14px;
+    font-weight: bold;
+    color: #5D0F1D; /* Adjust color */
+    display: block; /* Keeps subtext below the main text */
+    text-transform: uppercase; /* If needed */
+    letter-spacing: 0.5px; /* Adjust spacing */
+    margin-top: -5px; /* Adjust to control spacing between texts */
+}
+
+.para {
+    text-align: justify;
+}
+
+.redeemer-navbar-logo{
+    height: 60px;
+    width: auto;
+}
+.contact-para {
+    color: aliceblue;
+    text-align: left;
+}
+
+.redeemer-navbar-logo{
+    height: 60px;
+    width: auto;
+}
+
+.about-us-download-row img{
+    border-radius: 10px;
+}
+
+.about-us-download-row p,img, a{
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer i{
+    color: white;
+}
+

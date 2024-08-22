@@ -1,0 +1,120 @@
+/* Home Page Styles */
+
+.home-container{
+  margin-top: 150px;
+  margin-bottom: 5px;
+}
+  
+  .home-left {
+    padding-right: 20px;
+  }
+  
+  .home-left h1 {
+    position: relative;
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+.home-left h1::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 60px;
+    background-color: rgba(247, 54, 54, 0.8); /* White color for the points */
+    left: -20;
+    top: 10
+
+}
+  .home-left h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .home-left p {
+    font-size: 18px;
+    font-size: 1.1em;
+    color: #333;;
+  }
+  
+  
+.home-right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-right img{
+  object-fit:contain;
+  object-position: center;
+  transition: all 1s ease-in-out;
+}
+
+.biocalculus-image:hover{
+  transform: translateY(-10px);
+  transition: transform 0.5s ease-in-out;
+}
+
+.book-now-btn {
+  position: relative;
+  padding: 12px 100px;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(16, 16, 16);
+  background-color: transparent;
+  border: 2px solid rgba(247, 54, 54, 0.8);
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  outline: none;
+  z-index: 1;
+}
+
+.book-now-btn::before{
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 2%;
+  background-color: rgba(247, 54, 54, 0.8);
+}
+
+
+.book-now-btn:hover::before{
+  width: 100%;
+  z-index: -1;
+  transition: width 0.5s ease-in-out;
+}
+
+.book-now-btn:hover {
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+.para {
+  text-align: justify;
+  
+}
+  
+
+  /* fade in animatin settings */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fade-in-element{
+  opacity: 0; /* Start hidden */
+  transform: translateY(20px); /* Start slightly lower */
+  transition: opacity 1s ease-in-out, transform 0.25s ease-in-out; /* Transition for both opacity and position */
+}
+.fade-in-element.loaded {
+  opacity: 1; /* Fully visible */
+  transform: translateY(0); /* Return to original position */
+}
